@@ -1,2 +1,67 @@
+/*--COLORS--*/
+:root {
+    --dark-blue: #011826;
+    --main-blue: #024059;
+    --light-blue: #79D0F2;
+    --green-blue: #3385A6;
+    --purple: #456EC0;
+    --kids-orange: #ED5F4A;
+    --light: #fff;
+    --dark: #111;
+}
 
-    
+/*--CSS SETUP--*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: var(--green-blue);
+}
+ul {
+    list-style: none;
+}
+
+/*--NAV--*/
+nav {
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    padding: 0 2rem;
+    color: var(--light);
+}
+nav a img {
+    width: 8rem;
+}
+
+nav ul li a:hover {
+    color: var(--light-blue);
+    text-decoration: underline;
+    text-shadow: 0 0 1rem #002affb4;
+}
+
+/*--FOOTER--*/
+footer {
+    background-color: var(--dark-blue);
+    color: var(--light);
+}
