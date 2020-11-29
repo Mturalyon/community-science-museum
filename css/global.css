@@ -42,13 +42,16 @@ nav {
     align-items: center;
     justify-content: space-around;
     padding: 0.5rem 0;
+    flex-wrap: wrap;
 }
 nav ul {
     display: flex;
+    flex-wrap: wrap;
 }
 nav ul li a {
     padding: 0 2rem;
     color: var(--light);
+    font-weight: bold;
 }
 nav a img {
     width: 8rem;
@@ -59,9 +62,100 @@ nav ul li a:hover {
     text-decoration: underline;
     text-shadow: 0 0 1rem #002affb4;
 }
+/*--hamburger*/
+nav label {
+    color: var(--light);
+    font-size: 3.6rem;
+    display: none;
+}
+nav input {
+    display: none;
+}
 
 /*--FOOTER--*/
 footer {
     background-color: var(--dark-blue);
     color: var(--light);
+    display: flex;
+    justify-content: space-between;
+}
+footer aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+    width: 50%;
+}
+footer aside ul {
+    display: flex;
+}
+footer aside ul a {
+    margin: 0 1.5rem;
+    color: var(--light);
+}
+footer aside ul a:hover {
+    color: var(--light-blue);
+}
+footer aside h3 {
+    font-size: 1.5rem;
+}
+footer aside p {
+    font-size: 1.1rem;
+}
+footer iframe {
+    width: 50%;
+}
+
+/*-----MEDIA QUERIES-----*/
+@media only screen and (max-width: 500px) {
+    /*--FOOTER--*/
+    footer {
+        flex-direction: column;
+        height: 65rem;
+    }
+    footer aside {
+        width: 100%;
+        height: 50%;
+    }
+    footer iframe {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /*--NAV--*/
+    nav {
+        padding: 1rem 3rem;
+        justify-content: space-between;
+    }
+    nav label {
+        display: block;
+        cursor: pointer;
+    }
+    nav ul {
+        flex-basis: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 0;
+        display: none;
+    }
+    nav ul li {
+        padding: 1.5rem 0;
+        border-bottom: 1px solid var(--light-blue);
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a {
+        padding: 0 2rem;
+        font-size: 2rem;
+        display: block;
+    }
+    nav ul li a:hover {
+        text-decoration: none;
+    }
+    #hamburger:checked + .nav-menu {
+        display: flex;
+    }
 }
