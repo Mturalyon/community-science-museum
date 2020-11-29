@@ -107,6 +107,13 @@ footer iframe {
     width: 50%;
 }
 
+/*--ON PAGE COLOR--*/
+.on-page {
+    color: var(--light-blue);
+    text-decoration: underline;
+    text-shadow: 0 0 1rem #002affb4;
+}
+
 /*-----MEDIA QUERIES-----*/
 @media only screen and (max-width: 500px) {
     /*--FOOTER--*/
