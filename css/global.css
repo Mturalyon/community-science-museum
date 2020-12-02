@@ -9,6 +9,14 @@
     --light: #fff;
     --dark: #111;
 }
+/*FLEX*/
+.flex-row {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
 
 /*--CSS SETUP--*/
 *,
@@ -33,6 +41,19 @@ a {
 }
 ul {
     list-style: none;
+}
+p {
+    line-height: 1.7;
+}
+
+/*BUTTONS*/
+.btn-index {
+    padding: 1.5rem 2rem;
+    display: inline-block;
+    width: 20rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
 /*--NAV--*/

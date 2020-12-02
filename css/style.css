@@ -2,3 +2,193 @@
 
 /*font-family: 'Playfair Display', serif;*/
 /*font-family: 'Open Sans', sans-serif;*/
+
+/*-----INDEX-----*/
+/*--header*/
+.index-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right bottom,
+        #011826ab,
+        #011826c7),
+        url(/img/Index/Index_hero-banner.jpg);
+        background-size: cover;
+        background-position: top;
+    color: var(--light);
+    text-align: center;
+    padding-bottom: 15rem;
+    padding-top: 10rem;
+}
+.index-header hr {
+    width: 70%;
+    border: 0.5px solid var(--light-blue);
+    margin-top: 7rem;
+}
+.index-header h2 {
+    margin-top: 3rem;
+    font-weight: normal;
+    font-size: 3rem;
+}
+.index-header div {
+    margin-top: 10rem;
+    font-size: 1.7rem;
+}
+.index-header h1 {
+    font-size: 5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+/*--main*/
+.index-main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*discover*/
+.index-discover {
+    background-color: var(--main-blue);
+    min-height: 50vh;
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.index-discover hr {
+    width: 40%;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 4rem;
+}
+.index-discover h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.index-discover div a {
+    background-color: var(--purple);
+    color: var(--light);
+}
+.index-discover div a:hover {
+    background-color: #2d4980;
+    border: 1px solid var(--light-blue);
+}
+.p-div {
+    margin-bottom: 6rem;
+}
+.btn-div {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*kids*/
+.index-kids {
+    display: flex;
+    min-height: 50vh;
+}
+.index-kids aside {
+    background-color: var(--dark-blue);
+    color: var(--light);
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-bottom: 5rem;
+    width: 50%;
+}
+.index-kids aside h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.index-kids aside hr {
+    width: 40%;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 4rem;
+}
+.index-kids aside p {
+    margin-bottom: 4rem;
+}
+.index-kids aside div {
+    color: var(--kids-orange);
+    margin-bottom: 4rem;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.index-kids aside a {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    text-align: center;
+}
+.index-kids aside a:hover {
+    background-color: var(--light);
+}
+.index-kids > div {
+    width: 50%;
+    background-image: url(/img/Index/kids-index.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*school-trip*/
+#index_school-trip__p {
+    margin-bottom: 9rem;
+}
+#index_school-trip__img {
+    width: 50%;
+    background-image: url(/img/Index/experiment.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*join-us*/
+.join-us_div {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.join-us_div h4 {
+    margin: 0 3rem;
+}
+.index-discover h5 {
+    font-style: italic;
+    margin-bottom: 10rem;
+}
+.btn_join-us {
+    background-color: var(--purple);
+    color: var(--light);
+}
+.btn_join-us:hover {
+    background-color: #2d4980;
+    border: 1px solid var(--light-blue);
+}
+
+/*visit*/
+#index_visit-background {
+    background-image: linear-gradient(
+        to right bottom,
+        #011826ab,
+        #011826c7),
+        url(/img/Index/visit.jpg);
+        background-size: cover;
+        background-position: center;
+}
+#index_visit-background p {
+    margin-bottom: 10rem;
+}
+#btn-visit {
+    background-color: var(--green-blue);
+    color: var(--light);
+}
+#btn-visit:hover {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+}
+/*----/INDEX-----*/
+
+/*-----SCHOOL TRIP-----*/
