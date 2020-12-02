@@ -191,4 +191,41 @@
 }
 /*----/INDEX-----*/
 
+.header-align {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 3rem;
+}
+.header-align h1 {
+    font-size: 7rem;
+    font-weight: 900;
+}
+.header-align p {
+    margin-top: 7rem;
+    padding-bottom: 18rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
 /*-----SCHOOL TRIP-----*/
+#school-trip_bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #011826ab,
+        #011826c7),
+        url(/img/school-trip/school.jpg);
+        background-size: cover;
+        background-position: center;
+        color: var(--light);
+}
+.school-trip_main {
+    display: flex;
+}
+.school-trip_main section {
+    display: flex;
+    flex-direction: column;
+}
