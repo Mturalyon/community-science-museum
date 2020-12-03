@@ -268,3 +268,78 @@
         background-position: center;
         color: var(--light);
 }
+.exhibitions-main {
+    display: flex;
+    flex-direction: column;
+}
+.exhibitions-main section {
+    min-height: 50vh;
+}
+.exhibitions-main aside {
+    background-color: var(--main-blue);
+    color: var(--light);
+    min-width: 50%;
+    padding: 6rem;
+}
+.exhibitions-main div {
+    min-width: 50%;
+}
+.exhibitions-main h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.exhibitions-main hr {
+    width: 50%;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 4rem;
+}
+.section_bio-med {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+    text-align: center;
+    background-image: linear-gradient(
+        to right bottom,
+        #011826cb,
+        #011826d0),
+        url(/img/exhibitions/biology.jpg);
+        background-size: cover;
+        background-position: center;
+        color: var(--light);
+}
+/*--images*/
+.img-settings {
+        background-size: cover;
+        background-position: center;
+}
+.cosmology-img {
+    background-image: linear-gradient(
+        to right bottom,
+        #01182659,
+        #01182633),
+        url(/img/exhibitions/cosmology.jpg);
+}
+.evolution-img {
+    background-image: linear-gradient(
+        to right bottom,
+        #0118262d,
+        #01182633),
+        url(/img/exhibitions/evolution.jpg);
+}
+.robo-ai-img {
+    background-image: linear-gradient(
+        to right bottom,
+        #0118262d,
+        #01182633),
+        url(/img/exhibitions/robotics.jpg);
+}
+.ecology-img {
+    background-image: linear-gradient(
+        to right bottom,
+        #0118262d,
+        #01182633),
+        url(/img/exhibitions/ecology.jpg);
+}
