@@ -271,13 +271,13 @@
 .exhibitions-main {
     display: flex;
     flex-direction: column;
+    color: var(--light);
 }
 .exhibitions-main section {
     min-height: 50vh;
 }
 .exhibitions-main aside {
     background-color: var(--main-blue);
-    color: var(--light);
     min-width: 50%;
     padding: 6rem;
 }
@@ -308,7 +308,6 @@
         url(/img/exhibitions/biology.jpg);
         background-size: cover;
         background-position: center;
-        color: var(--light);
 }
 /*--images*/
 .img-settings {
@@ -342,4 +341,92 @@
         #0118262d,
         #01182633),
         url(/img/exhibitions/ecology.jpg);
+}
+/*-----/EXHIBITIONS/END-----*/
+/*-----EVENTS-----*/
+#events-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #011826a4,
+        #011826c2),
+        url(/img/events/events-hero.jpg);
+        background-size: cover;
+        background-position: center;
+        color: var(--light);
+}
+.events-main {
+    display: flex;
+    flex-direction: column;
+    color: var(--light);
+}
+.events-main section {
+    min-height: 50vh;
+}
+.events-main aside {
+    min-width: 50%;
+    background-color: var(--main-blue);
+    padding: 6rem;
+}
+.events_split-div {
+    min-width: 50%;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.events_split-div div {
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.events_split-div p {
+    justify-self: flex-end;
+}
+/*--images*/
+.energetica-img {
+    background-image: linear-gradient(
+        to right bottom,
+        #011826a4,
+        #011826a4),
+        url(/img/events/energetica.jpg);
+}
+.night-img {
+    background-image: linear-gradient(
+        to right bottom,
+        #011826a4,
+        #011826a4),
+        url(/img/events/night-in-museum.jpg);
+}
+.events-main hr {
+    width: 50%;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 4rem;
+}
+.events-main h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.section_aeronautics {
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(
+        to right bottom,
+        #011826a4,
+        #011826c2),
+        url(/img/events/aeronautics.jpg);
+        background-size: cover;
+        background-position: center;
+}
+.section_aeronautics div {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-bottom: 2rem;
 }
