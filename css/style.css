@@ -256,3 +256,15 @@
 .bold-text {
     font-weight: bold;
 }
+/*-----/SCHOOL TRIP/END-----*/
+/*-----EXHIBITIONS-----*/
+#exhibitions-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #01182681,
+        #01182685),
+        url(/img/exhibitions/electro.jpg);
+        background-size: cover;
+        background-position: center;
+        color: var(--light);
+}
