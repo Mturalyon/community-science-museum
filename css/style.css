@@ -189,7 +189,7 @@
     background-color: var(--light-blue);
     color: var(--dark-blue);
 }
-/*----/INDEX-----*/
+/*----/INDEX/END-----*/
 
 .header-align {
     min-height: 100vh;
@@ -228,4 +228,31 @@
 .school-trip_main section {
     display: flex;
     flex-direction: column;
+    background-color: var(--main-blue);
+    color: var(--light);
+    min-width: 50%;
+    min-height: 65vh;
+    padding: 6rem;
+}
+.school-trip_main div {
+    width: 50%;
+    background-image: url(/img/school-trip/trip.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.school-trip_main h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.school-trip_main hr {
+    width: 40%;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 4rem;
+}
+.school-trip_main p {
+    margin-bottom: 4rem;
+}
+.bold-text {
+    font-weight: bold;
 }
