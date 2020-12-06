@@ -190,7 +190,7 @@
     color: var(--dark-blue);
 }
 /*----/INDEX/END-----*/
-
+/*-----HEADERS-----*/
 .header-align {
     min-height: 100vh;
     display: flex;
@@ -210,7 +210,7 @@
     font-size: 1.8rem;
     font-weight: bold;
 }
-
+/*-----/HEADERS/END-----*/
 /*-----SCHOOL TRIP-----*/
 #school-trip_bg {
     background-image: linear-gradient(
@@ -519,4 +519,273 @@
     padding: 3rem;
     font-weight: bold;
     font-size: 1.9rem;
+}
+/*-----/KIDS/END-----*/
+/*-----JOIN US-----*/
+#join-us_bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #011826c9,
+        #011826d3),
+        url(/img/join-us/join-us_banner.jpg);
+        background-size: cover;
+        background-position: center;
+        color: var(--light);
+}
+.join-us_main {
+    display: flex;
+    flex-direction: column;
+    color: var(--light);
+}
+.join-us_main section {
+    min-height: 50vh;
+}
+.join-us_split-section {
+    display: flex;
+}
+.join-us_split-section aside {
+    min-width: 50%;
+    background-color: var(--dark-blue);
+    padding: 6rem;
+}
+.join-us_main h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.join-us_main hr {
+    width: 50%;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 4rem;
+}
+.join-us_split-section div {
+    min-width: 50%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.join-us_split-section div div {
+    text-align: center;
+    min-height: 50%;
+    background-color: #024059ec;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.join-us_split-section div h3 {
+    font-size: 1.9rem;
+    text-decoration: underline;
+}
+.join-us_full-section {
+    background-image: linear-gradient(
+        to right bottom,
+        #011826d0,
+        #011826ee),
+        url(/img/join-us/research.jpg);
+        background-size: cover;
+        background-position: center;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 6rem;
+}
+.join-us_full-section > div {
+    display: flex;
+    min-width: 50%;
+    justify-content: space-between;
+}
+.join-us_full-section div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.join-us_full-section > div > p {
+ margin-right: 2rem;
+ font-weight: bold;
+}
+.join-us_full-section h3 {
+    text-decoration: underline;
+}
+/*--images*/
+.volunteer-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #01182634,
+        #01182641),
+        url(/img/join-us/volunteer.jpg);
+}
+.internship-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #01182634,
+        #01182641),
+        url(/img/join-us/internship.jpg);
+}
+.support-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #01182634,
+        #01182641),
+        url(/img/join-us/support.jpg);
+}
+/*-----/JOIN US/END-----*/
+/*-----VISIT-----*/
+/*--header*/
+.visit-header {
+    display: flex;
+    flex-direction: column;
+    color: var(--light);
+}
+.visit-header_top {
+    min-height: 20vh;
+    background-color: var(--main-blue);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 3rem;
+    font-size: 1.1rem;
+}
+.visit-header_top i {
+    margin: 0 1.5rem;
+    color: var(--light-blue);
+}
+
+.visit-header_mid {
+    padding: 4rem 6rem 6rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right bottom,
+        #024059c4,
+        #024059e5),
+        url(/img/visit/clock.jpg);
+        background-size: cover;
+        background-position: center;
+    min-height: 50vh;
+    font-weight: bold;
+}
+.visit-header_mid > div {
+    display: flex;
+    align-items: center;
+}
+.visit-header_mid > div div {
+    margin-right: 2rem;
+}
+.visit-header_mid h2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.visit-header_mid hr {
+    min-width: 40rem;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 3rem;
+}
+
+.visit-header_bot {
+   background-color: var(--dark-blue);
+   min-height: 24vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+}
+.visit-header_bot h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--light-blue);
+}
+.visit-header_bot h3 {
+    font-size: 1.4rem;
+}
+
+/*--main*/
+/*full sections*/
+.visit_full-section {
+    min-height: 65vh;
+    padding: 6rem;
+    background-image: linear-gradient(
+        to right bottom,
+        #024059c4,
+        #024059e5),
+        url(/img/visit/accessibility.jpg);
+        background-size: cover;
+        background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    text-align: center;
+}
+.visit_full-section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.visit_full-section hr {
+    min-width: 40rem;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 5rem;
+}
+.visit_full-section p {
+    margin-bottom: 5rem;
+}
+.visit_full-section i {
+    color: var(--light-blue);
+}
+#shop-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #024059c4,
+        #024059e5),
+        url(/img/visit/shop.jpg);
+}
+
+/*split section*/
+.visit_split-section {
+    display: flex;
+    min-height: 65vh;
+}
+.visit_split-section aside {
+    padding: 6rem;
+    color: var(--light);
+}
+.aside_guided-tours {
+    min-width: 50%;
+    background-color: var(--main-blue);
+}
+.aside_guided-tours h2 {
+    margin-bottom: 2rem;
+}
+.aside_guided-tours hr {
+    border: 0.5px solid var(--light-blue);
+    max-width: 50%;
+    margin-bottom: 4rem;
+}
+.aside_guided-tours p {
+    margin-bottom: 3rem;
+}
+.aside_guided-tours h3 {
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+.aside_food-drinks {
+    background-color: var(--dark-blue);
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aside_food-drinks h2 {
+    color: var(--light-blue);
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
 }
