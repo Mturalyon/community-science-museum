@@ -430,3 +430,93 @@
     min-width: 100%;
     margin-bottom: 2rem;
 }
+/*-----/EVENTS/END-----*/
+/*-----KIDS-----*/
+#kids-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        #011826a4,
+        #011826c2),
+        url(/img/kids/kids.jpg);
+        background-size: cover;
+        background-position: center;
+        color: var(--light);
+}
+.kids-main {
+    display: flex;
+    flex-direction: column;
+    color: var(--light);
+}
+.kids-main i {
+    color: var(--kids-orange);
+}
+.kids_club-icon {
+    background-color: var(--main-blue);
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3rem;
+}
+.kids_club-icon div h2 {
+    color: var(--light-blue);
+    margin-top: 2rem;
+}
+.kids_info {
+    min-height: 50vh;
+    display: flex;
+}
+.kids_info aside {
+    background-color: var(--dark-blue);
+    min-width: 50%;
+    padding: 6rem;
+}
+.kids_info aside div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.kids_info aside h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+.kids_info aside hr {
+    width: 50%;
+    border: 0.5px solid var(--light-blue);
+    margin-bottom: 4rem;
+}
+.kids_info aside p {
+    margin-bottom: 4rem;
+}
+.kids_info div {
+    min-width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.summer-suns_img {
+    background-image: linear-gradient(
+        to right bottom,
+        #0118266e,
+        #01182675),
+        url(/img/kids/summer.jpg);
+}
+.young-stars_img {
+    background-image: linear-gradient(
+        to right bottom,
+        #0118266c,
+        #0118266b),
+        url(/img/kids/young-star.jpg);
+}
+.kids_extra-section {
+    min-height: 40vh;
+    background-color: var(--main-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
