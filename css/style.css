@@ -893,6 +893,26 @@
         min-width: 100%;
         padding: 6rem;
     }
+
+    /*--EVENTS--*/
+    .events-main aside {
+        min-width: 100%;
+        min-height: 50vh;
+    }
+    .events_split-div {
+        min-width: 100%;
+        padding: 4rem;
+        justify-content: space-between;
+    }
+    .events_split-div div {
+        min-height: 50%;
+    }
+    .section_aeronautics div {
+        margin-bottom: 4rem;
+    }
+    .section_aeronautics {
+        padding: 3rem;
+    }
 }
 /*500px*/
 @media only screen and (max-width: 500px) {
@@ -1038,6 +1058,29 @@
     }
     .exhibitions-main p {
         font-size: 1.3rem;
+    }
+
+    /*--EVENTS--*/
+    .events-main aside {
+      padding: 3rem;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .events_split-div {
+        padding: 3rem;
+    }
+    .events-main hr {
+        width: 100%;
+    }
+    .events-main h2 {
+        font-size: 2.5rem;
+    }
+    .events-main p {
+        font-size: 1.4rem;
+    }
+    .events-main h3 {
+        font-size: 1.5rem;
     }
 }
 /*350px*/
