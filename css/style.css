@@ -869,6 +869,30 @@
     .school-trip_main hr {
         width: 50%;
     }
+
+    /*--EXHIBITIONS--*/
+    .flex-row_left {
+        flex-direction: column;
+    }
+    .flex-row_left div {
+        min-width: 100%;
+        min-height: 30vh;
+    }
+    .flex-row_right {
+        flex-direction: column-reverse;
+    }
+    .flex-row_right div {
+        min-width: 100%;
+        min-height: 30vh;
+    }
+    .exhibitions-main aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 50vh;
+        min-width: 100%;
+        padding: 6rem;
+    }
 }
 /*500px*/
 @media only screen and (max-width: 500px) {
@@ -983,8 +1007,6 @@
         font-size: 1.2rem;
         padding: 4rem;
     }
-
-    /*--KIDS--*/
     .kids_info aside {
         padding: 3rem;
     }
@@ -1004,9 +1026,27 @@
     .school-trip_main hr {
         width: 100%;
     }
+    /*--EXHIBITIONS*/
+    .exhibitions-main aside {
+        padding: 3rem;
+    }
+    .section_bio-med {
+        padding: 3rem;
+    }
+    .exhibitions-main hr {
+        width: 100%;
+    }
+    .exhibitions-main p {
+        font-size: 1.3rem;
+    }
 }
 /*350px*/
 @media only screen and (max-width: 350px) {
+    /*--HEADER--*/
+    #exhibitions-bg h1 {
+        font-size: 4rem;
+    }
+
     /*--INDEX--*/
     .index-kids aside p {
         font-size: 1.3rem;

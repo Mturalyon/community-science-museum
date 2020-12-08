@@ -10,6 +10,12 @@
     --dark: #111;
 }
 /*FLEX*/
+.flex-row_left {
+    display: flex;
+}
+.flex-row_right {
+    display: flex;
+}
 .flex-row {
     display: flex;
 }
