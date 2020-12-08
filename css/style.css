@@ -83,9 +83,12 @@
     margin-bottom: 6rem;
 }
 .btn-div {
-    width: 30%;
+    min-width: 30%;
     display: flex;
     justify-content: space-between;
+}
+.btn-margin {
+    margin-right: 2rem;
 }
 
 /*kids*/
@@ -96,9 +99,7 @@
 .index-kids aside {
     background-color: var(--dark-blue);
     color: var(--light);
-    padding-top: 5rem;
-    padding-left: 10rem;
-    padding-bottom: 5rem;
+    padding: 6rem;
     width: 50%;
 }
 .index-kids aside h3 {
@@ -134,6 +135,21 @@
     background-image: url(/img/Index/kids-index.jpg);
     background-size: cover;
     background-position: center;
+}
+.index-kids_club-icon {
+    background-color: var(--main-blue);
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3rem;
+    color: var(--kids-orange);
+    display: none;
+}
+.index-kids_club-icon h2 {
+    color: var(--light-blue);
+    margin-top: 2rem;
 }
 
 /*school-trip*/
@@ -793,6 +809,24 @@
 /*-----MEDIA QUERIES-----*/
 /*800px*/
 @media only screen and (max-width: 800px) {
+    /*--INDEX--*/
+    /*--kids*/
+    .index-kids {
+        min-height: 40vh;
+    }
+    .index-kids_club-icon {
+        display: flex;
+    }
+    .index-kids aside div {
+        display: none;
+    }
+    .index-kids aside {
+        padding: 3rem;
+    }
+
+    /*--KIDS--*/
+    
+
     /*--SCHOOL TRIP--*/
     .school-trip_main div {
         display: none;
@@ -843,6 +877,76 @@
     .index-header h1 {
         font-size: 3rem;
     }
+    /*--discover*/
+    .index-discover {
+        padding: 6rem 3rem;
+        justify-content: center;
+    }
+    .index-discover hr {
+        width: 100%;
+    }
+    .btn-div {
+        min-width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn-margin {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+    /*--kids*/
+    .index-kids > div {
+        display: none;
+    }
+    .index-kids aside {
+        background-image: linear-gradient(
+        to right bottom,
+        #011826d3,
+        #011826de),
+        url(/img/Index/kids-index.jpg);
+        background-size: cover;
+        background-position: top;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 6rem 2rem;
+        width: 100%;
+    }
+    .index-kids_club-icon {
+        font-size: 1.2rem;
+        padding: 2rem;
+    }
+    .index-kids aside hr {
+        width: 100%;
+    }
+    /*--school trip*/
+    #index_schooltrip_mobile-bg {
+        background-image: linear-gradient(
+        to right bottom,
+        #011826d0,
+        #011826da),
+        url(/img/Index/experiment.jpg);
+    }
+    /*--join us*/
+    .join-us_div {
+        margin-bottom: 1rem;
+        flex-direction: column;
+    }
+    .join-us_div h4 {
+        margin: 0 0;
+        margin-bottom: 1rem;
+    }
+    .index-discover h5 {
+        margin-bottom: 5rem;
+    }
+    /*--visit*/
+    #index_visit-background p {
+        margin-bottom: 5rem;
+    }
 
     /*--SCHOOL TRIP--*/
     .school-trip_main section {
@@ -856,6 +960,11 @@
 }
 /*350px*/
 @media only screen and (max-width: 350px) {
+    /*--INDEX--*/
+    .index-kids aside p {
+        font-size: 1.3rem;
+    }
+
     /*--SCHOOL TRIP--*/
     .school-trip_main h2 {
         font-size: 2.5rem;
