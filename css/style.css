@@ -913,6 +913,30 @@
     .section_aeronautics {
         padding: 3rem;
     }
+
+    /*--JOIN US--*/
+    .join-us_split-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .join-us_split-section aside {
+        min-height: 45vh;
+    }
+    .col-reverse {
+        flex-direction: column-reverse;
+    }
+    .join-us_split-section div div {
+        padding: 4rem 2rem;
+    }
+    .join-us_split-section div div p {
+        margin-bottom: 2rem;
+    }
+    .join-us_full-section > div {
+        flex-direction: column;
+    }
+    .join-us_full-section > div p {
+        margin-bottom: 2rem;
+    }
 }
 /*500px*/
 @media only screen and (max-width: 500px) {
@@ -1080,6 +1104,33 @@
         font-size: 1.4rem;
     }
     .events-main h3 {
+        font-size: 1.5rem;
+    }
+
+    /*JOIN US*/
+    .join-us_split-section aside {
+        padding: 4rem 3rem;
+    }
+    .join-us_full-section {
+        padding: 4rem 3rem;
+    }
+    .join-us_main hr {
+        width: 100%;
+    }
+    .join-us_split-section p {
+        font-size: 1.5rem;
+    }
+    .join-us_split-section div h3 {
+        font-size: 1.6rem;
+    }
+    .join-us_full-section > div > p {
+        margin-right: 0;
+        font-size: 1.5rem;
+    }
+    .join-us_full-section h3 {
+        font-size: 1.6rem;
+    }
+    .join-us_full-section > div > div > p {
         font-size: 1.5rem;
     }
 }
