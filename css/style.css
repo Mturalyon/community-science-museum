@@ -825,7 +825,37 @@
     }
 
     /*--KIDS--*/
-    
+    .kids_club-icon {
+        min-height: 25vh;
+        font-size: 1.4rem;
+    }
+    .kids-club_margin {
+        margin-right: 2rem;
+    }
+    .kids_info div {
+        display: none;
+    }
+    .kids_info aside {
+        background-image: linear-gradient(
+        to right bottom,
+        #0240598e,
+        #02405981),
+        url(/img/kids/young-star.jpg);
+        background-size: cover;
+        background-position: center;
+        min-width: 100%;
+    }
+    #summer-suns_mobile-bg {
+        background-image: linear-gradient(
+        to right bottom,
+        #024059c7,
+        #024059cb),
+        url(/img/kids/summer.jpg);
+    }
+    .kids_extra-section {
+        min-height: 25vh;
+        font-size: 1.3rem;
+    }
 
     /*--SCHOOL TRIP--*/
     .school-trip_main div {
@@ -918,7 +948,6 @@
     }
     .index-kids_club-icon {
         font-size: 1.2rem;
-        padding: 2rem;
     }
     .index-kids aside hr {
         width: 100%;
@@ -948,6 +977,24 @@
         margin-bottom: 5rem;
     }
 
+    /*--KIDS--*/
+    .kids_club-icon {
+        min-height: 30vh;
+        font-size: 1.2rem;
+        padding: 4rem;
+    }
+
+    /*--KIDS--*/
+    .kids_info aside {
+        padding: 3rem;
+    }
+    .kids_info aside hr {
+        width: 100%;
+    }
+    .kids_info aside p {
+        font-size: 1.5rem;
+    }
+
     /*--SCHOOL TRIP--*/
     .school-trip_main section {
         width: 100%;
@@ -962,6 +1009,11 @@
 @media only screen and (max-width: 350px) {
     /*--INDEX--*/
     .index-kids aside p {
+        font-size: 1.3rem;
+    }
+
+    /*--KIDS--*/
+    .kids_info aside p {
         font-size: 1.3rem;
     }
 
