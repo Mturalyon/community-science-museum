@@ -773,6 +773,9 @@
     color: var(--light);
 }
 .aside_guided-tours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-width: 50%;
     background-color: var(--main-blue);
 }
@@ -936,6 +939,13 @@
     }
     .join-us_full-section > div p {
         margin-bottom: 2rem;
+    }
+
+    /*--VISIT--*/
+    .visit_split-section {
+        flex-direction: column;
+        display: flex;
+        min-height: 65vh;
     }
 }
 /*500px*/
@@ -1133,6 +1143,31 @@
     .join-us_full-section > div > div > p {
         font-size: 1.5rem;
     }
+
+    /*--VISIT--*/
+    .visit-header_mid hr {
+        min-width: 100%;
+    }
+    .visit_full-section hr {
+        min-width: 100%;
+    }
+    .visit-header_mid {
+        padding: 4rem 3rem
+    }
+    .visit_full-section {
+        padding: 6rem 3rem;
+    }
+    .visit_split-section aside {
+        padding: 6rem 3rem;
+    }
+    .aside_guided-tours hr {
+        max-width: 100%;
+    }
+    .visit-header_top {
+        padding: 3rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 }
 /*350px*/
 @media only screen and (max-width: 350px) {
@@ -1158,5 +1193,7 @@
     .school-trip_main p {
         font-size: 1.4rem;
     }
+
+    /*--VISIT--*/
 }
 
