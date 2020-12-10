@@ -64,12 +64,15 @@ p {
 
 /*--NAV--*/
 nav {
+    position: sticky;
+    top: 0;
     background-color: var(--dark-blue);
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0.5rem 0;
     flex-wrap: wrap;
+    border-bottom: 1px solid #022135;
 }
 nav ul {
     display: flex;
