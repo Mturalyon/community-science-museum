@@ -74,6 +74,7 @@
 .index-discover div a {
     background-color: var(--purple);
     color: var(--light);
+    border: 1px solid transparent;
 }
 .index-discover div a:hover {
     background-color: #2d4980;
@@ -178,6 +179,7 @@
 .btn_join-us {
     background-color: var(--purple);
     color: var(--light);
+    border: 1px solid transparent;
 }
 .btn_join-us:hover {
     background-color: #2d4980;
