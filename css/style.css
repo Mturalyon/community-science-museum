@@ -812,6 +812,100 @@
 }
 
 /*---CONTACT---*/
+.contact-main {
+    padding: 5rem 0 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green-blue);
+}
+.contact-form {
+    background-color: var(--main-blue);
+    color: white;
+    min-width: 60rem;
+    padding: 3rem 4rem 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label input, .contact-form label textarea {
+    display: block;
+    padding: 0.4rem 0.6rem;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    border: 2px solid transparent;
+    width: 100%;
+    font-family: "open sans", sans-serif;
+    resize: none;
+}
+.contact-form label input:focus, .contact-form label textarea:focus {
+    border: 2px solid var(--purple);
+    outline: none !important;
+}
+.contact-form div {
+    margin-bottom: 3rem;
+}
+.submit-btn {
+    font-family: 'open sans', sans-serif;
+    align-self: center;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: solid 1px transparent;
+}
+.contact-form .submit-btn:hover {
+    background-color: var(--purple);
+    color: white;
+    cursor: pointer;
+}
+.contact-form h1 {
+    font-size: 4rem;
+    margin-bottom: 2.8rem;
+}
+.error-message {
+    color: rgb(255, 23, 23);
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: none;
+}
+.contact-form label {
+    font-weight: bold;
+}
+.contact-form .last-div {
+    margin-bottom: 4rem;
+}
+
+/*--JS*/
+.complete-container {
+    text-align: center;
+    color: white;
+}
+.back-btn {
+    display: inline-block;
+    margin-top: 8rem;
+    width: 80%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+    background-color: white;
+    color: black;
+}
+.back-btn:hover {
+    background-color: var(--purple);
+    color: white;
+}
+
+.complete-container span {
+    margin-bottom: 2rem;
+}
+.check-a {
+    color: #48B14C !important;
+}
+.check-b {
+    color: white;
+}
 
 /*-----MEDIA QUERIES-----*/
 /*800px*/
@@ -950,6 +1044,14 @@
         flex-direction: column;
         display: flex;
         min-height: 65vh;
+    }
+
+    /*--CONTACT--*/
+    .contact-form {
+        min-width: 100%;
+    }
+    .contact-main {
+        padding: 0;
     }
 }
 /*500px*/
@@ -1171,6 +1273,11 @@
         padding: 3rem;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    /*--CONTACT--*/
+    .contact-form {
+        padding: 1rem 2rem 2rem 2rem;
     }
 }
 /*350px*/
