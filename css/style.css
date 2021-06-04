@@ -907,6 +907,10 @@
     color: white;
 }
 
+.contact-btn {
+    background-color: var(--light-blue);
+}
+
 /*-----MEDIA QUERIES-----*/
 /*800px*/
 @media only screen and (max-width: 800px) {
