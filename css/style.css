@@ -909,6 +909,14 @@
 
 .contact-btn {
     background-color: var(--light-blue);
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+}
+.contact-btn:hover {
+    background-color: white;
 }
 
 /*-----MEDIA QUERIES-----*/
